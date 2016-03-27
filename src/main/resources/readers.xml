@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<readers xmlns:reader="http://www.zyx.com/readers" xmlns:book="http://www.zyx.com/books/"
+	xml:base="http://www.company.com/readers/">
+
+	<reader:book-order>
+<address:full-address xmlns:address="http://www.xyz.com/addresses/">
+			<title>Mrs.</title>
+			<name>Ivales</name>
+		</address:full-address>
+				
+		<book:title>Lord of the Rings</book:title>
+		<book:list-of-pictures xml:base="/pictures/">
+			<book:book-picture xml:base="picture1.jpg">Рисунок 1
+			</book:book-picture>
+			<book:book-picture xml:base="picture2.jpg">Рисунок 2
+			</book:book-picture>
+		</book:list-of-pictures>
+	</reader:book-order>
+</readers>
+

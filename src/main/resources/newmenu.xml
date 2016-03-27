@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast-menu>
+	<food id="123">
+		<name>Waffles</name>
+	</food>
+</breakfast-menu>
