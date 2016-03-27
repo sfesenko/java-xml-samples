@@ -18,7 +18,7 @@ import java.util.List;
 public class StAxEventExample {
 
     public static void main(String[] args) throws FileNotFoundException, XMLStreamException {
-        List<Food> menu = new ArrayList<Food>();
+        List<Food> menu = new ArrayList<>();
         Food food = null;
         XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
 
